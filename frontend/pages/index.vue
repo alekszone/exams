@@ -2,15 +2,17 @@
   <div>
     <div>
       Resolved:
-      <div v-for="error in resolved" :key="error.index">`{{ error.code }}` - {{ error.text }}</div>
+      <div>
+        hellloosdv why is empty
+      </div>
     </div>
     <div>
       Unresolved:
-      <div v-for="error in unresolved" :key="error.index">`{{ error.code }}` - {{ error.text }}</div>
+      <div v-for="error in unresolved">`{{ error.code }}`</div>
     </div>
     <div>
       Backlog:
-      <div v-for="error in backlog" :key="error.index">`{{ error.code }}` - {{ error.text }}</div>
+      <div v-for="error in backlog">`{{ error.code }}`</div>
     </div>
   </div>
 </template>
